@@ -10,11 +10,29 @@ cd HappyQQT-ASM
 make
 ```
 
-### Clone HappyQQT-ASM Hack
+### Deploy HappyQQT-ASM Hack
 ```
 git clone https://github.com/wkcn/HappyQQT-ASM-Hack
 cd HappyQQT-ASM-Hack
+```
 
-make soft links of HappyQQT-ASM/main and HappyQQT/game
+Make soft links of `HappyQQT-ASM/main` and `HappyQQT/game`
+
+The files in the directory:
+```
+.
+├── game -> ../HappyQQT-ASM/game
+├── hack.py
+├── main -> ../HappyQQT-ASM/main
+├── README.md
+└── res
+    ├── BGM
+    │   └── bomb.ogg
+    └── SE
+        └── X10_01.wav
+```
+
+Run the hack program:
+```
 python3 hack.py
 ```
